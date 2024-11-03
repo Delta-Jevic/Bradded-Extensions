@@ -1,0 +1,173 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #ff1493;
+}
+
+/* Header Styles */
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #ff1493;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff1493;
+}
+
+.buttons .btn-primary {
+    background-color: #ff1493;
+    border-color: #ff1493;
+}
+
+.buttons .btn-outline-primary {
+    color: #ff1493;
+    border-color: #ff1493;
+}
+
+.buttons .btn-outline-primary:hover {
+    background-color: #ff1493;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffc0cb; /* Pink background */
+    padding: 50px 0;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #ff1493;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-pink {
+    background-color: #ff1493;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* What's New Section */
+.whats-new {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.product-card .btn-primary {
+    background-color: #ff1493;
+    border-color: #ff1493;
+}
+
+/* Footer Styles */
+footer h5 {
+    font-size: 1.2rem;
+    color: #ff1493;
+}
+
+footer ul li a {
+    color: #333;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #ff1493;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+footer .row {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+footer .list-unstyled.d-flex li a {
+    color: #333;
+}
+
+footer .list-unstyled.d-flex li a:hover {
+    color: #ff1493;
+}
+
+/* Subscribe Button */
+footer form .btn-primary {
+    background-color: #ff1493;
+    border-color: #ff1493;
+    color: white;
+}
+
+.btn.btn-sm.btn-outline-secondary{
+    background-color: #ff1493;
+    border-color: #ff1493;
+    color: white;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s;
+  }
+  
